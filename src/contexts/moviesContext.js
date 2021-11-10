@@ -31,6 +31,8 @@ const MoviesContextProvider = (props) => {
     setMyPlaylist([...myPlaylist,movie.id])
   }
 
+  console.log(myPlaylist)
+  
  return (
     <MoviesContext.Provider
       value={{
